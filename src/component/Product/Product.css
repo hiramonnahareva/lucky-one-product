@@ -1,0 +1,30 @@
+.product {
+    /* background: gray; */
+    border: 2px solid rgb(209, 19, 168) ;
+    border-radius: 20px;
+    padding: 20px 10px;
+    position: relative ;
+ 
+}
+.product p {
+    margin-bottom: 40px;
+}
+.product img {
+    width: 150px;
+}
+.product .btn-add {
+    background-color: rgb(250, 2, 196);
+    color: white;
+    padding: 10px  20px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 35%;
+    bottom: 10px;
+}
+.product .btn-add:hover {
+    background-color: rgb(209, 19, 168);
+}

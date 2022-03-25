@@ -1,0 +1,74 @@
+[
+    {
+      "id": "0",
+      "price": 190,
+      "name": "loson",
+      "img": "https://cdn.nicehair.dk/products/90230/shiseido-ginza-body-lotion-200-ml-1617870615.jpg"
+    },
+    {
+      "id": "1",
+      "price": 121,
+      "name": "crim",
+      "img": "https://img.freepik.com/free-psd/body-lotion-pump-bottles-mockup_439185-2730.jpg"
+    },
+    {
+      "id": "2",
+      "price": 351,
+      "name": "Foley Petty",
+      "img": "https://cdn.nicehair.dk/products/90230/shiseido-ginza-body-lotion-200-ml-1617870615.jpg"
+    },
+    {
+      "id": "3",
+      "price": 373,
+      "name": "Graves Mcknight",
+      "img": "https://cdn.nicehair.dk/products/90230/shiseido-ginza-body-lotion-200-ml-1617870615.jpg"
+    },
+    {
+      "id": "4",
+      "price": 198,
+      "name": "Rosa Dunlap",
+      "img": "https://cdn.nicehair.dk/products/90230/shiseido-ginza-body-lotion-200-ml-1617870615.jpg"
+    },
+    {
+      "id": "5",
+      "price": 215,
+      "name": "Miles Conway",
+      "img": "https://cdn.nicehair.dk/products/90230/shiseido-ginza-body-lotion-200-ml-1617870615.jpg"
+    },
+    {
+      "id": "6",
+      "price": 121,
+      "name": "Janine Boyer",
+      "img": "https://cdn.nicehair.dk/products/90230/shiseido-ginza-body-lotion-200-ml-1617870615.jpg"
+    },
+    {
+      "id": "7",
+      "price": 351,
+      "name": "Foley Petty",
+      "img": "https://cdn.nicehair.dk/products/90230/shiseido-ginza-body-lotion-200-ml-1617870615.jpg"
+    },
+    {
+      "id": "8",
+      "price": 373,
+      "name": "Graves Mcknight",
+      "img": "https://cdn.nicehair.dk/products/90230/shiseido-ginza-body-lotion-200-ml-1617870615.jpg"
+    },
+    {
+      "id": "9",
+      "price": 198,
+      "name": "Rosa Dunlap",
+      "img": "https://cdn.nicehair.dk/products/90230/shiseido-ginza-body-lotion-200-ml-1617870615.jpg"
+    },
+    {
+      "id": "10",
+      "price": 215,
+      "name": "Miles Conway",
+      "img": "https://cdn.nicehair.dk/products/90230/shiseido-ginza-body-lotion-200-ml-1617870615.jpg"
+    },
+    {
+      "id": "11",
+      "price": 198,
+      "name": "Rosa Dunlap",
+      "img": "https://cdn.nicehair.dk/products/90230/shiseido-ginza-body-lotion-200-ml-1617870615.jpg"
+    }
+  ]

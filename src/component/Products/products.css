@@ -1,0 +1,22 @@
+.products-container {
+    display: grid;
+    grid-template-columns: 4fr  1fr;
+    grid-gap: 20px;
+}
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr) ;
+    grid-gap: 20px;
+}
+.cart-container {
+    background: gray;
+}
+@media screen and (max-width: 800px ){
+    .products-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .product-container {
+        grid-template-columns: repeat(1 , 1fr) ;
+    } 
+}
