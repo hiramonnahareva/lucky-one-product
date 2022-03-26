@@ -1,13 +1,13 @@
 [
     {
       "id": "0",
-      "price": 190,
+      "price": 500,
       "name": "Smooth and Flawless Primer Foundation",
       "img": "https://media6.ppl-media.com/tr:h-750,w-750,c-at_max/static/img/product/225229/swiss-beauty-smooth-and-flawless-primer-foundation-1-ivory-30-ml_1_display_1611050314_b7b31f81.jpg"
     },
     {
       "id": "1",
-      "price": 121,
+      "price": 1200,
       "name": "Makeup Kit",
       "img": "https://m.media-amazon.com/images/I/61Ydj1tvlXL._AC_SY1000_.jpg"
     },
@@ -25,7 +25,7 @@
     },
     {
       "id": "4",
-      "price": 198,
+      "price": 408,
       "name": "Makeup Foundation",
       "img": "https://image.made-in-china.com/202f0j00ZdwaKjqRkHrk/VERONNI-Full-Coverage-Makeup-Fluid-Concealer-Whitening-Moisturizer-Oil-Control-Waterproof-Liquid-Foundation.jpg"
     },
@@ -37,7 +37,7 @@
     },
     {
       "id": "6",
-      "price": 121,
+      "price": 230,
       "name": "Eye Liner",
       "img": "https://m.media-amazon.com/images/I/61ZsmYKGGmL.jpg"
     },

@@ -14,12 +14,12 @@ const Products = () => {
     } , [])
     const addToCart = item => {
         const newCart = [...cart , item]
-        if (newCart.length <= 4 ){
-            setCart (newCart)
-           
+        const exists = cart.find (product => product.id === item.id) ;
+        if (newCart.length <= 4 && !exists){
+            setCart (newCart)  
         }
        else {
-        alert ('not more than 4') ;
+        alert ('not more than 4 and not repeat one item') ;
        }
     }
     const removeAll = () => {
