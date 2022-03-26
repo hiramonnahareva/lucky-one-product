@@ -6,7 +6,7 @@ const Cart = ({cart , removeAll , chooseItem }) => {
         <div className='cart'>
             <div className='cart-info'>
             {
-                cart.map (item => <h4>
+                cart.map (item => <h4 key={item.id}>
                     <img src={item.img} alt="" />
                     Name: {item.name}</h4>)
             }
