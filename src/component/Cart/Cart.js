@@ -1,12 +1,18 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = ({cart}) => {
+const Cart = ({cart , removeAll , chooseItem }) => {
     return (
-        <div className='cart-container'>
+        <div className='cart'>
+            <div className='cart-info'>
             {
-                cart.map (item => <h4>Name: {item.name}</h4>)
+                cart.map (item => <h4>
+                    <img src={item.img} alt="" />
+                    Name: {item.name}</h4>)
             }
+            </div>
+            <button onClick={chooseItem}>choose one</button>
+            <button onClick={removeAll}>Remove</button>
           
         </div>
     );

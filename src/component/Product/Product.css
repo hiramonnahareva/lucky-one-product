@@ -1,9 +1,9 @@
 .product {
     /* background: gray; */
-    border: 2px solid rgb(209, 19, 168) ;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 20px 10px;
     position: relative ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
  
 }
 .product p {
@@ -23,7 +23,7 @@
     align-items: center;
     position: absolute;
     left: 35%;
-    bottom: 10px;
+    bottom: 20px;
 }
 .product .btn-add:hover {
     background-color: rgb(209, 19, 168);

@@ -1,0 +1,14 @@
+.ans-1 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    justify-content: center;
+    text-align: start ;
+    padding: 0px 40px;
+    margin: 20px 200px;
+}
+@media screen and (max-width: 800px ){
+    .ans-1 {
+        display: inline;
+        box-shadow:none
+    }
+}

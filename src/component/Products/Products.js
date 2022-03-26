@@ -14,9 +14,26 @@ const Products = () => {
     } , [])
     const addToCart = item => {
         const newCart = [...cart , item]
+        if (newCart.length <= 4 ){
+            setCart (newCart)
+           
+        }
+       else {
+        alert ('not more than 4') ;
+       }
+    }
+    const removeAll = () => {
+        setCart ([])
+    }
+    const chooseItem = () => {
+       const newCart = []
+        if (cart.length === 0){
+            alert ('no item found')
+        }
+        else {
+        newCart.push(cart[Math.floor((Math.random()*cart.length))])
         setCart (newCart)
-        console.log (newCart) ;
-        // console.log (id)
+        }
     }
     return (
         
@@ -35,7 +52,10 @@ const Products = () => {
            </div>
            <div className="cart-container">
            <h2>Order Item</h2>
-           <Cart cart = {cart}></Cart>
+           <Cart 
+           chooseItem = {chooseItem}
+           removeAll = {removeAll}
+           cart = {cart}></Cart>
            </div>
         </div>
         </div>

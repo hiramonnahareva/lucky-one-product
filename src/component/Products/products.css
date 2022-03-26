@@ -8,9 +8,6 @@
     grid-template-columns: repeat(3 , 1fr) ;
     grid-gap: 20px;
 }
-.cart-container {
-    background: gray;
-}
 @media screen and (max-width: 800px ){
     .products-container {
         display: grid;
