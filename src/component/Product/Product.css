@@ -1,5 +1,4 @@
 .product {
-    /* background: gray; */
     border-radius: 10px;
     padding: 20px 10px;
     position: relative ;
@@ -13,7 +12,7 @@
     width: 150px;
 }
 .product .btn-add {
-    background-color: rgb(250, 2, 196);
+    background-color: rgb(248, 23, 128);
     color: white;
     padding: 10px  20px;
     border-radius: 5px;
@@ -26,5 +25,5 @@
     bottom: 20px;
 }
 .product .btn-add:hover {
-    background-color: rgb(209, 19, 168);
+    background-color: rgb(168, 16, 87);
 }

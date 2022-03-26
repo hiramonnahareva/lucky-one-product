@@ -38,7 +38,7 @@ const Products = () => {
     return (
         
         <div>
-             <h1>Cosmetics</h1>
+             <h1>Beauty Products</h1>
              <div className="products-container">
            <div className="product-container">
            {
